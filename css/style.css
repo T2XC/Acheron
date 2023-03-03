@@ -1,5 +1,7 @@
 body {
     background-color: #000; /*Website has a black background*/
+	margin: 0;
+	box-sizing: border-box;
 }
 
 .header {
@@ -10,9 +12,9 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 
 	background-repeat: no-repeat; /*Header image does not repeat*/
-	width: 100%; /*Header spans across whole screen*/
-	height: 1080px; /*Header height*/
-	background-size: 100%; /*Image spans across whole header*/
+	height: 100vh; /*Header height*/
+	background-size: cover; /*Image covers whole header*/
+	background-position: center center;
 	margin: none; /*No margin*/
 	padding: none; /*No padding*/
 }
@@ -23,7 +25,7 @@ body {
 	border-radius: 10px;
 	position: fixed;
 	float: center;
-	width: 98.65%;
+	width: 99.4%;
 	z-index: 100;
 }
 
@@ -158,10 +160,6 @@ p.story {
 :root {
   --surface-color: #fff;
   --curve: 40;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .cards {
