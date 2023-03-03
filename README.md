@@ -4,5 +4,5 @@
 
 A website for a fake digital audio workstation called Acheron. I've been building it for a couple months now and it's mostly a school project. More features will be added soon.
 
-#### The website does not work on mobile.
+#### The website does not work properly on mobile.
 #### It doesn't work properly on PC either.
