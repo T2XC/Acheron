@@ -29,6 +29,16 @@ body {
 	z-index: 100;
 }
 
+@media (max-width:960px) {
+	.navbtn {
+		display: none;
+	}
+
+	.navbtn2 {
+		display: none;
+	}
+}
+
 .navbtn {
 	text-align: left;
 	padding-left: 60px;
