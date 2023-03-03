@@ -1,7 +1,8 @@
 # Acheron
 
-Acheron is a personal website project I've had for a couple months. It's a website for a digital audio workstation, kind of a parody of Ableton, a real DAW.
+### Note: Acheron is _not_ an actual digital audio workstation.
 
-The website does _not_ work properly for mobile devices at the moment.
+A website for a fake digital audio workstation called Acheron. I've been building it for a couple months now and it's mostly a school project.
 
-The .vbs file is a fake installer that says there is a internal server error and can't download the file.
+#### The website does not work on mobile.
+#### It doesn't work properly on PC either.
