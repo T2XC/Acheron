@@ -14,7 +14,7 @@ body {
 	background-repeat: no-repeat; /*Header image does not repeat*/
 	height: 100vh; /*Header height*/
 	background-size: cover; /*Image covers whole header*/
-	background-position: center center;
+	background-position: center center; /*Header image is always centered*/
 	margin: none; /*No margin*/
 	padding: none; /*No padding*/
 }
@@ -91,7 +91,7 @@ h3 {
 	font-family: helvetica bold, Helvetica, Arial; /*Helvetica font*/
 	font-weight: 450; /*Font weight*/
 	padding-top: 50px;
-	text-align: center;
+	text-align: center; 
 	font-size: 25px; /*Font size*/
 }
 
