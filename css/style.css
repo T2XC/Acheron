@@ -13,7 +13,7 @@ body {
 
 	background-repeat: no-repeat; /*Header image does not repeat*/
 	height: 100vh; /*Header height*/
-	min-height: 100px;
+	min-height: 100px; /*Minimum height*/
 	background-size: cover; /*Image covers whole header*/
 	background-position: center center; /*Header image is always centered*/
 	margin: none; /*No margin*/
