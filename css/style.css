@@ -13,6 +13,7 @@ body {
 
 	background-repeat: no-repeat; /*Header image does not repeat*/
 	height: 100vh; /*Header height*/
+	min-height: 100px;
 	background-size: cover; /*Image covers whole header*/
 	background-position: center center; /*Header image is always centered*/
 	margin: none; /*No margin*/
@@ -486,4 +487,21 @@ p.infoh {
 	padding-top: 60px;
 	margin: auto;
 	display: block;
+}
+
+.product {
+	background-color: #111;
+	border: 1px #111 solid;
+	border-radius: 10px;
+	float: left;
+	width: 30%;
+	padding: 15px;
+}
+
+.products {
+	text-decoration: none;
+	color: #444;
+	font-size: 1em;
+	display: block;
+	padding-top: 10px;
 }
