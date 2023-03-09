@@ -493,6 +493,30 @@ p.infoh {
 	margin-left: 1.5vw;
 }
 
+.fa-bars:hover {
+	color: #ccc;
+}
+
+.fa-bars:active {
+	color: #aaa;
+}
+
+.navbtn:hover {
+	color: #ccc;
+}
+
+.navbtn:active {
+	color: #aaa;
+}
+
+.navbtn2:hover {
+	color: #ccc;
+}
+
+.navbtn2:active {
+	color: #aaa;
+}
+
 .fa-apple, .fa-microsoft, .fa-linux {
 	color: white;
 	margin: auto;  /*Automatic spacing*/
