@@ -5,11 +5,10 @@
 	<head>
 		
 		<title>Acheron</title> <!-- Site title -->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> <!-- Connected to Google Symbols -->
 		<link rel="stylesheet" href="css/style.css"> <!-- Connected to CSS file -->
 		<meta name="description" content="Fake digital audio workstation website"> <!--Site description-->
 		<meta name="keywords" content="Music, Audio, Acheron, Workstation, Ableton"> <!--Site keywords-->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Something to do with compatibility-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <!--Something to do with compatibility-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Website scale-->
 		<meta name="author" content="T2XC"> <!--Site author-->		
 		<meta charset="utf-8"> <!--UTF-8 Character set-->
@@ -22,10 +21,8 @@
 		
 		<nav class="topbar"> <!-- Navigation bar -->
 			
-			<button class="material-symbols-outlined" onclick="openNav()"> <!-- List icon -->
-				menu
-			</button>
-			<h1>Acheron</h1> <!-- Nav Title -->
+			<i onclick="openNav()" class="fa-solid fa-bars fa-2x"></i>
+			<h1 id="titletop">Acheron</h1> <!-- Nav Title -->
 			
 				<a href="index.html" class="navbtn">Home</a>
 				<a href="#plan" type="button"><button class="navbtn2">Shop</button></a>
@@ -37,7 +34,7 @@
 		
 		<header class="header"> <!-- Site header -->
 			
-			<h2>Acheron</h2> <!-- Header title -->
+			<h2 id="title">Acheron</h2> <!-- Header title -->
 			<h3>The adaptive digital audio workstation made for everyone.</h3> <!-- Header subtitle / slogan -->
 			<a href="#plan" type="button"><button id="getstarted">Get started</button></a>
 			
@@ -115,9 +112,9 @@
 		<h3 id="comp">Compatible with</h3> <!-- Compatible with version -->
 		<div class="comp"> <!-- Compatibility icons -->
 			
-			<img src="img/windows.png" class="comp"> <!-- Windows icon -->
-			<img src="img/macos.png" class="comp"> <!-- Apple / Mac OS icon -->
-			<img src="img/linux.png" class="comp"> <!-- Linux icon -->
+			<i class="fa-brands fa-apple fa-2x"></i>
+			<i class="fa-brands fa-microsoft fa-2x"></i>
+			<i class="fa-brands fa-linux fa-2x"></i>
 			
 		</div>
 
@@ -275,7 +272,6 @@
 			
 			<p id="copy">© 2024 Acheron Company - All rights reserved.</p> <!-- Copyright -->
 			
-			<!--Product page-->
 			<div class="product">
 
 			<h4>Products</h4>
@@ -300,6 +296,8 @@
 			
 		</footer>
 		
+		<script src="https://kit.fontawesome.com/3437e45bad.js" crossorigin="anonymous"></script>
+
 	</body>
 	
 </html>
