@@ -6,5 +6,4 @@ A website for a fake digital audio workstation called Acheron. I've been buildin
 
 #### The website does not work properly on mobile.
 #### It doesn't work properly on PC either. Yet.
-
-I don't even know if you can open this on GitHub
+#### I'm not sure if the website is possible to open.
